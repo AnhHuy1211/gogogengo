@@ -283,8 +283,12 @@ async function handleExcelUpload(event) {
   state.selectedSetId = null;
   state.hiddenColumns = { kanji: false, kana: false, meaning: false };
   state.hiddenCells = new Set();
-  await fetchSets();
+
+  const createdSet = result;
+  state.sets = [createdSet, ...state.sets.filter((set) => set.id !== createdSet.id)];
+
   renderHomePage();
+  await fetchSets();
 }
 
 document.addEventListener('DOMContentLoaded', async () => {
