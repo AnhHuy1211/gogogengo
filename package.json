@@ -1,0 +1,17 @@
+{
+  "name": "gogogengo",
+  "version": "1.0.0",
+  "description": "Japanese vocabulary learning website with JSON database",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "xlsx": "^0.18.5"
+  }
+}
