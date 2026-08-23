@@ -338,6 +338,23 @@ h1 {
   gap: 16px;
 }
 
+.title-block {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.set-title-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.rename-button {
+  padding-inline: 14px;
+}
+
 .summary-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));

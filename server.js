@@ -5,7 +5,12 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import * as XLSX from 'xlsx';
-import { buildCardsFromRows, generatePracticeSetName, normalizeLegacyCards } from './src/logic.js';
+import {
+  buildCardsFromRows,
+  generatePracticeSetName,
+  normalizeLegacyCards,
+  sanitizeSetName
+} from './src/logic.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -237,9 +242,16 @@ app.put('/api/sets/:id', async (req, res) => {
       return res.status(404).json({ message: 'Set not found.' });
     }
 
+    const currentName = db.sets[setIndex].name || '';
+    const incomingName = req.body?.name;
+    const candidateName = typeof incomingName === 'string'
+      ? sanitizeSetName(incomingName, db.sets.map((set) => set.name), currentName)
+      : currentName;
+
     const updatedSet = {
       ...db.sets[setIndex],
       ...req.body,
+      name: candidateName,
       cards: (req.body.cards || db.sets[setIndex].cards || []).map((card) => ({
         id: card.id || crypto.randomUUID(),
         word: normalizeCellValue(card.word ?? card.front ?? ''),

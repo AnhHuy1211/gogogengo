@@ -138,6 +138,7 @@ function renderSets() {
       </div>
       <div class="set-actions">
         <button class="primary" data-action="open-set" data-id="${set.id}">View table</button>
+        <button class="secondary" data-action="rename-set" data-id="${set.id}">Rename</button>
         <button class="danger" data-action="delete-set" data-id="${set.id}">Delete</button>
       </div>
     `;
@@ -199,9 +200,12 @@ function renderSetDetail(set = getSelectedSet()) {
   appRoot.innerHTML = `
     <main class="table-shell">
       <div class="practice-header">
-        <div>
+        <div class="title-block">
           <p class="eyebrow">Vocabulary set</p>
-          <h1>${set.name}</h1>
+          <div class="set-title-row">
+            <h1>${set.name}</h1>
+            <button class="secondary rename-button" data-action="rename-set" data-id="${set.id}">Rename</button>
+          </div>
         </div>
         <button class="secondary" id="backHome">Back to list</button>
       </div>
@@ -259,6 +263,41 @@ function renderSetDetail(set = getSelectedSet()) {
   });
 }
 
+async function renameSet(setId, newName) {
+  const trimmed = String(newName ?? '').trim();
+  if (!trimmed) {
+    alert('List name cannot be empty.');
+    return;
+  }
+
+  const existingNames = state.sets.filter((set) => set.id !== setId).map((set) => set.name);
+  const candidateName = trimmed;
+  const currentSet = state.sets.find((set) => set.id === setId);
+  const safeName = currentSet && currentSet.name === candidateName
+    ? candidateName
+    : (existingNames.includes(candidateName) ? `${candidateName} ${existingNames.filter((name) => name.startsWith(`${candidateName} `)).length + 1}` : candidateName);
+
+  const response = await fetch(`/api/sets/${setId}`, {
+    method: 'PUT',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ name: safeName })
+  });
+
+  const result = await response.json();
+  if (!response.ok) {
+    alert(result.message || 'Unable to rename the list.');
+    return;
+  }
+
+  state.sets = state.sets.map((set) => set.id === setId ? { ...set, name: result.name } : set);
+  if (state.selectedSetId === setId) {
+    state.selectedSetId = setId;
+    renderSetDetail(getSelectedSet());
+  } else {
+    renderHomePage();
+  }
+}
+
 async function handleExcelUpload(event) {
   event.preventDefault();
   const formData = new FormData(event.currentTarget);
@@ -304,6 +343,15 @@ document.addEventListener('click', async (event) => {
   if (action === 'open-set') {
     const setId = event.target.dataset.id;
     await openSet(setId);
+    return;
+  }
+
+  if (action === 'rename-set') {
+    const setId = event.target.dataset.id;
+    const set = state.sets.find((item) => item.id === setId);
+    const nextName = window.prompt('Rename your vocabulary list:', set?.name || '');
+    if (nextName === null) return;
+    await renameSet(setId, nextName);
     return;
   }
 

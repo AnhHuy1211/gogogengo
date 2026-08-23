@@ -102,3 +102,38 @@ export function generatePracticeSetName(baseName, existingNames = []) {
 
   return candidate;
 }
+
+export function sanitizeSetName(value, existingNames = [], currentName = '') {
+  const trimmed = String(value ?? '').trim();
+  const safeExisting = (existingNames || [])
+    .map((name) => String(name ?? '').trim())
+    .filter(Boolean);
+  const keepCurrent = currentName ? String(currentName).trim() : '';
+
+  if (!trimmed) {
+    if (keepCurrent) {
+      return keepCurrent;
+    }
+
+    return safeExisting[0] || 'Untitled list';
+  }
+
+  const normalized = trimmed;
+
+  if (normalized === keepCurrent) {
+    return normalized;
+  }
+
+  if (!safeExisting.includes(normalized)) {
+    return normalized;
+  }
+
+  let sequence = 1;
+  let candidate = `${normalized} ${sequence}`;
+  while (safeExisting.includes(candidate)) {
+    sequence += 1;
+    candidate = `${normalized} ${sequence}`;
+  }
+
+  return candidate;
+}

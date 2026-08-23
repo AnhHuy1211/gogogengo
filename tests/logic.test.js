@@ -1,6 +1,11 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { buildCardsFromRows, generatePracticeSetName, normalizeLegacyCards } from '../src/logic.js';
+import {
+  buildCardsFromRows,
+  generatePracticeSetName,
+  normalizeLegacyCards,
+  sanitizeSetName
+} from '../src/logic.js';
 
 test('buildCardsFromRows creates one item per vocabulary entry', () => {
   const rows = [
@@ -58,4 +63,11 @@ test('generatePracticeSetName appends suffix when duplicate exists', () => {
   const existing = ['2026-08-18', '2026-08-18 1', '2026-08-18 2'];
   assert.equal(generatePracticeSetName('2026-08-18', existing), '2026-08-18 3');
   assert.equal(generatePracticeSetName('2026-08-19', existing), '2026-08-19');
+});
+
+test('sanitizeSetName trims blanks and avoids duplicate names during rename', () => {
+  assert.equal(sanitizeSetName('   My Set  ', ['My Set', 'My Set 1']), 'My Set 2');
+  assert.equal(sanitizeSetName('   ', ['Vocabulary']), 'Vocabulary');
+  assert.equal(sanitizeSetName('New Name', ['New Name'], 'New Name'), 'New Name');
+  assert.equal(sanitizeSetName('   ', []), 'Untitled list');
 });
