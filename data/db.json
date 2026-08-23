@@ -1,339 +1,111 @@
 {
   "sets": [
     {
-      "id": "a6bba8ee-df50-40cd-8838-21276ae6ff3d",
-      "name": "2026-08-18 1",
-      "createdAt": "2026-08-18T13:41:40.114Z",
+      "id": "103c76cb-b88b-49ce-833b-0ddcff1ad0ff",
+      "name": "2026-08-23",
+      "createdAt": "2026-08-23T11:41:07.904Z",
       "cards": [
         {
-          "id": "card-1787060500114-0-d48750",
-          "word": "祖先",
-          "reading": "そせん",
-          "meaning": "Tổ tiên"
+          "id": "card-1787485267904-0-ae6b66",
+          "word": "安売り",
+          "reading": "やすうり",
+          "meaning": "Bán rẻ, bán hạ giá"
         },
         {
-          "id": "card-1787060500114-1-39aee2",
-          "word": "子孫",
-          "reading": "しそん",
-          "meaning": "Con cháu, hậu thế"
+          "id": "card-1787485267904-1-b400b0",
+          "word": "提示",
+          "reading": "ていじ",
+          "meaning": "Sự xuất trình"
         },
         {
-          "id": "card-1787060500114-2-cad7e4",
-          "word": "祖父母",
-          "reading": "そふぼ",
-          "meaning": "Ông bà"
+          "id": "card-1787485267904-2-9db437",
+          "word": "毛布",
+          "reading": "もうふ",
+          "meaning": "Cái chăn"
         },
         {
-          "id": "card-1787060500114-3-5decc7",
-          "word": "孫",
-          "reading": "まご",
-          "meaning": "Cháu (của ông bà)"
+          "id": "card-1787485267904-3-259678",
+          "word": "青空",
+          "reading": "あおぞら",
+          "meaning": "Bầu trời xanh"
         },
         {
-          "id": "card-1787060500114-4-e1690e",
-          "word": "三世代",
-          "reading": "さんせだい",
-          "meaning": "Gia đình có 3 thế hệ"
+          "id": "card-1787485267904-4-df6298",
+          "word": "潜る",
+          "reading": "くぐる",
+          "meaning": "Trốn, tránh"
         },
         {
-          "id": "card-1787060500114-5-afb09a",
-          "word": "一家",
-          "reading": "いっか",
-          "meaning": "Cả gia đình, một nhà"
+          "id": "card-1787485267904-5-b44208",
+          "word": "叔父",
+          "reading": "おじ",
+          "meaning": "Chú"
         },
         {
-          "id": "card-1787060500114-6-59c028",
-          "word": "親類の集まり",
-          "reading": "しんるいのあつまり",
-          "meaning": "Họp gia đình, gặp mặt họ hàng"
+          "id": "card-1787485267904-6-a3fc01",
+          "word": "開催",
+          "reading": "かいさい",
+          "meaning": "Sự tổ chức"
         },
         {
-          "id": "card-1787060500114-7-095d93",
-          "word": "親孝行",
-          "reading": "おやこうこう",
-          "meaning": "Lòng hiếu thảo, có hiếu"
+          "id": "card-1787485267904-7-aae70d",
+          "word": "契約",
+          "reading": "けいやく",
+          "meaning": "Bản hợp đồng, khế ước"
         },
         {
-          "id": "card-1787060500114-8-820907",
-          "word": "実家",
-          "reading": "じっか",
-          "meaning": "Nhà bố mẹ đẻ"
+          "id": "card-1787485267904-8-813a91",
+          "word": "礼状",
+          "reading": "れいじょう",
+          "meaning": "Thư cảm ơn"
         },
         {
-          "id": "card-1787060500114-9-5a08cb",
-          "word": "懐かしい",
-          "reading": "なつかしい",
-          "meaning": "Thân thương, hoài nhớ"
+          "id": "card-1787485267904-9-0979a4",
+          "word": "就職",
+          "reading": "しゅうしょく",
+          "meaning": "Làm việc, có việc làm"
         },
         {
-          "id": "card-1787060500114-10-77d0f3",
-          "word": "末っ子",
-          "reading": "すえっこ",
-          "meaning": "Con út"
+          "id": "card-1787485267904-10-f4752c",
+          "word": "紛失",
+          "reading": "ふんしつ",
+          "meaning": "Sự đánh mất, sự thất lạc"
         },
         {
-          "id": "card-1787060500114-11-1fcbba",
-          "word": "一人っ子",
-          "reading": "ひとりっこ",
-          "meaning": "Con một"
+          "id": "card-1787485267904-11-ce2762",
+          "word": "退職",
+          "reading": "たいしょく",
+          "meaning": "Sự thôi việc, về hưu"
         },
         {
-          "id": "card-1787060500114-12-fcdd41",
-          "word": "双子",
-          "reading": "ふたご",
-          "meaning": "Cặp song sinh, sinh đôi"
+          "id": "card-1787485267904-12-ba4197",
+          "word": "証拠",
+          "reading": "しょうこ",
+          "meaning": "Chứng cớ, bằng chứng"
         },
         {
-          "id": "card-1787060500114-13-8e00f4",
-          "word": "仲良し",
-          "reading": "なかよし",
-          "meaning": "Bạn thân, bạn bè tốt"
+          "id": "card-1787485267904-13-bb1cf3",
+          "word": "馬鹿",
+          "reading": "ばか",
+          "meaning": "Ngu xuẩn, ngu ngốc"
         },
         {
-          "id": "card-1787060500114-14-a108ff",
-          "word": "仕事仲間",
-          "reading": "しごとなかま",
-          "meaning": "Đồng nghiệp, bạn bè trong công việc"
+          "id": "card-1787485267904-14-d3de85",
+          "word": "クッション",
+          "reading": "クッション",
+          "meaning": "Cái đệm, cái nệm"
         },
         {
-          "id": "card-1787060500114-15-1982fa",
-          "word": "勉強仲間",
-          "reading": "べんきょうなかま",
-          "meaning": "Bạn trong học tập"
+          "id": "card-1787485267904-15-6e4c14",
+          "word": "突然",
+          "reading": "とつぜん",
+          "meaning": "Đột nhiên"
         },
         {
-          "id": "card-1787060500114-16-360171",
-          "word": "飲み仲間",
-          "reading": "のみなかま",
-          "meaning": "Bạn nhậu"
-        },
-        {
-          "id": "card-1787060500114-17-fdda93",
-          "word": "知人",
-          "reading": "ちじん",
-          "meaning": "Người quen biết"
-        },
-        {
-          "id": "card-1787060500114-18-e03ea8",
-          "word": "知り合い",
-          "reading": "しりあい",
-          "meaning": "Sự quen, sự quen biết"
-        },
-        {
-          "id": "card-1787060500114-19-3b928e",
-          "word": "付き合い",
-          "reading": "つきあい",
-          "meaning": "Sự giao thiệp, tiếp xúc, quan hệ"
-        },
-        {
-          "id": "card-1787060500114-20-86f17e",
-          "word": "話し合い",
-          "reading": "はなしあい",
-          "meaning": "Thảo luận, hội ý"
-        },
-        {
-          "id": "card-1787060500114-21-a43616",
-          "word": "奥様",
-          "reading": "おくさま",
-          "meaning": "Bà nhà, phu nhân (cách nói lịch sự của おくさん)"
-        },
-        {
-          "id": "card-1787060500114-22-625786",
-          "word": "お母様",
-          "reading": "おかあさま",
-          "meaning": "Mẹ (của người khác, cách nói lịch sự của お母さん)"
-        },
-        {
-          "id": "card-1787060500114-23-94dfa2",
-          "word": "お父様",
-          "reading": "おとうさま",
-          "meaning": "Bố (của người khác, cách nói lịch sự của お父さん)"
-        },
-        {
-          "id": "card-1787060500114-24-e85214",
-          "word": "お嬢ちゃん",
-          "reading": "おじょうちゃん",
-          "meaning": "Tiểu thư (cách nói lịch sự của 娘さん)"
-        },
-        {
-          "id": "card-1787060500114-25-ed7729",
-          "word": "お坊ちゃん",
-          "reading": "おぼっちゃん",
-          "meaning": "Cậu chủ (cách nói lịch sự của 息子さん)"
-        },
-        {
-          "id": "card-1787060500114-26-e32d1d",
-          "word": "氏夫妻",
-          "reading": "しふさい",
-          "meaning": "Cặp vợ chồng (cách nói thể hiện sự kính trọng)"
-        },
-        {
-          "id": "card-1787060500114-27-b7486d",
-          "word": "夫人",
-          "reading": "ふじん",
-          "meaning": "Phu nhân, vợ (của người khác)"
-        },
-        {
-          "id": "card-1787060500114-28-8354c3",
-          "word": "職場",
-          "reading": "しょくば",
-          "meaning": "Nơi làm việc, phân xưởng"
-        },
-        {
-          "id": "card-1787060500114-29-ed1bd7",
-          "word": "上司",
-          "reading": "じょうし",
-          "meaning": "Sếp, cấp trên"
-        },
-        {
-          "id": "card-1787060500114-30-a595e3",
-          "word": "部下",
-          "reading": "ぶか",
-          "meaning": "Cấp dưới"
-        },
-        {
-          "id": "card-1787060500114-31-c5399d",
-          "word": "先輩",
-          "reading": "せんぱい",
-          "meaning": "Tiền bối, đàn anh"
-        },
-        {
-          "id": "card-1787060500114-32-51694a",
-          "word": "後輩",
-          "reading": "こうはい",
-          "meaning": "Hậu bối, đàn em"
-        },
-        {
-          "id": "card-1787060500114-33-e26cec",
-          "word": "目上",
-          "reading": "めうえ",
-          "meaning": "Người trên, người cấp trên"
-        },
-        {
-          "id": "card-1787060500114-34-c5985a",
-          "word": "目下",
-          "reading": "めした",
-          "meaning": "Người dưới, cấp dưới"
-        },
-        {
-          "id": "card-1787060500114-35-1ae5c8",
-          "word": "年上",
-          "reading": "としうえ",
-          "meaning": "Lớn tuổi, hơn tuổi"
-        },
-        {
-          "id": "card-1787060500114-36-10c207",
-          "word": "年下",
-          "reading": "としした",
-          "meaning": "Ít tuổi, trẻ tuổi hơn"
-        },
-        {
-          "id": "card-1787060500114-37-dbb4a1",
-          "word": "同い年",
-          "reading": "おないどし",
-          "meaning": "Người cùng tuổi, bằng tuổi"
-        },
-        {
-          "id": "card-1787060500114-38-c3d3ea",
-          "word": "周囲",
-          "reading": "しゅうい",
-          "meaning": "Xung quanh"
-        },
-        {
-          "id": "card-1787060500114-39-3e0214",
-          "word": "親しい",
-          "reading": "したしい",
-          "meaning": "Tri kỉ, thân thiết"
-        },
-        {
-          "id": "card-1787060500114-40-92cfd6",
-          "word": "コミュニケーション",
-          "reading": "コミュニケーション",
-          "meaning": "Sự liên lạc, giao tiếp"
-        },
-        {
-          "id": "card-1787060500114-41-741d9f",
-          "word": "守る",
-          "reading": "まもる",
-          "meaning": "Giữ (lời hứa)"
-        },
-        {
-          "id": "card-1787060500114-42-e238d2",
-          "word": "破る",
-          "reading": "やぶる",
-          "meaning": "Không giữ (lời hứa)"
-        },
-        {
-          "id": "card-1787060500114-43-092d1b",
-          "word": "取り消す",
-          "reading": "とりけす",
-          "meaning": "Xóa bỏ, hủy bỏ"
-        },
-        {
-          "id": "card-1787060500114-44-325f45",
-          "word": "取り出す",
-          "reading": "とりだす",
-          "meaning": "Rút ra, lấy ra"
-        },
-        {
-          "id": "card-1787060500114-45-8a6481",
-          "word": "取り替える",
-          "reading": "とりかえる",
-          "meaning": "Đổi lại, thay thế"
-        },
-        {
-          "id": "card-1787060500114-46-8f2648",
-          "word": "言葉遣い",
-          "reading": "ことばづかい",
-          "meaning": "Việc sử dụng từ ngữ, ngôn ngữ"
-        },
-        {
-          "id": "card-1787060500114-47-fed633",
-          "word": "金遣い",
-          "reading": "かねづかい",
-          "meaning": "Cách tiêu tiền"
-        },
-        {
-          "id": "card-1787060500114-48-4d2d3a",
-          "word": "気遣い",
-          "reading": "きづかい",
-          "meaning": "Sự lo lắng, quan tâm"
-        },
-        {
-          "id": "card-1787060500114-49-8500ee",
-          "word": "握手",
-          "reading": "あくしゅ",
-          "meaning": "Cái bắt tay"
-        },
-        {
-          "id": "card-1787060500114-50-d0f162",
-          "word": "お辞儀",
-          "reading": "おじぎ",
-          "meaning": "Sự cúi chào"
-        },
-        {
-          "id": "card-1787060500114-51-257642",
-          "word": "長年",
-          "reading": "ながねん",
-          "meaning": "Nhiều năm, lâu năm"
-        },
-        {
-          "id": "card-1787060500114-52-af8be2",
-          "word": "たとえ",
-          "reading": "たとえ",
-          "meaning": "Cho dù, dẫu rằng"
-        },
-        {
-          "id": "card-1787060500114-53-4e9fc5",
-          "word": "ちっとも",
-          "reading": "ちっとも",
-          "meaning": "Không ... một chút gì"
-        },
-        {
-          "id": "card-1787060500114-54-d25c5e",
-          "word": "丸で",
-          "reading": "まるで",
-          "meaning": "Hoàn toàn, hệt như"
+          "id": "card-1787485267904-16-f18264",
+          "word": "気味",
+          "reading": "きみ",
+          "meaning": "Cảm giác, sự cảm nhận"
         }
       ]
     },
