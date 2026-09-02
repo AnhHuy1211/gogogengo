@@ -1,8 +1,580 @@
 {
   "sets": [
     {
+      "id": "de61eaad-8d22-4015-8b45-bd8669f6e6b1",
+      "name": "Day 03.1",
+      "createdAt": "2026-09-02T13:42:16.548Z",
+      "cards": [
+        {
+          "id": "card-1788356536548-0-2eb34a",
+          "word": "苦情",
+          "reading": "くじょう",
+          "meaning": "Phàn nàn, than thở"
+        },
+        {
+          "id": "card-1788356536548-1-362da0",
+          "word": "地平線",
+          "reading": "ちへいせん",
+          "meaning": "Đường chân trời"
+        },
+        {
+          "id": "card-1788356536548-2-afa3c1",
+          "word": "彼方",
+          "reading": "かなた",
+          "meaning": "Đằng kia, bên kia"
+        },
+        {
+          "id": "card-1788356536548-3-e11426",
+          "word": "立派",
+          "reading": "りっぱ",
+          "meaning": "Tuyệt vời, xuất sắc"
+        },
+        {
+          "id": "card-1788356536548-4-e12b97",
+          "word": "呼び止める",
+          "reading": "よびとめる",
+          "meaning": "Hô, gọi lại"
+        },
+        {
+          "id": "card-1788356536548-5-e13dfd",
+          "word": "景気",
+          "reading": "けいき",
+          "meaning": "Tình hình kinh tế"
+        },
+        {
+          "id": "card-1788356536548-6-b7f225",
+          "word": "徐々",
+          "reading": "じょじょ",
+          "meaning": "Từ từ, dần dần"
+        },
+        {
+          "id": "card-1788356536548-7-cff20d",
+          "word": "治安",
+          "reading": "ちあん",
+          "meaning": "Sự trị an, an ninh chung"
+        },
+        {
+          "id": "card-1788356536548-8-dea1bf",
+          "word": "警備",
+          "reading": "けいび",
+          "meaning": "Sự phòng bị"
+        },
+        {
+          "id": "card-1788356536548-9-47cde0",
+          "word": "倒産",
+          "reading": "とうさん",
+          "meaning": "Sự phá sản"
+        },
+        {
+          "id": "card-1788356536548-10-77618f",
+          "word": "高齢化",
+          "reading": "こうれいか",
+          "meaning": "Sự già hóa"
+        },
+        {
+          "id": "card-1788356536548-11-63760e",
+          "word": "怠ける",
+          "reading": "なまける",
+          "meaning": "Lười biếng"
+        },
+        {
+          "id": "card-1788356536548-12-dfbff5",
+          "word": "感謝",
+          "reading": "かんしゃ",
+          "meaning": "Sự cảm tạ, lòng biết ơn"
+        },
+        {
+          "id": "card-1788356536548-13-9e3384",
+          "word": "役所",
+          "reading": "やくしょ",
+          "meaning": "Cơ quan hành chính nhà nước"
+        },
+        {
+          "id": "card-1788356536548-14-10aeb2",
+          "word": "葬儀",
+          "reading": "そうぎ",
+          "meaning": "Tang lễ"
+        },
+        {
+          "id": "card-1788356536548-15-8dc38e",
+          "word": "地味",
+          "reading": "じみ",
+          "meaning": "Giản dị, đơn giản"
+        },
+        {
+          "id": "card-1788356536548-16-5ecb13",
+          "word": "世の中",
+          "reading": "よのなか",
+          "meaning": "Xã hội, thế giới"
+        },
+        {
+          "id": "card-1788356536548-17-abafcc",
+          "word": "事態",
+          "reading": "じたい",
+          "meaning": "Tình thế, hoàn cảnh"
+        },
+        {
+          "id": "card-1788356536548-18-b0de3e",
+          "word": "慌てる",
+          "reading": "あわてる",
+          "meaning": "Hoảng sợ, vội vàng"
+        },
+        {
+          "id": "card-1788356536548-19-198460",
+          "word": "飛び立つ",
+          "reading": "とびたつ",
+          "meaning": "Bay đi, nhảy lên"
+        },
+        {
+          "id": "card-1788356536548-20-43d28b",
+          "word": "取り戻す",
+          "reading": "とりもどす",
+          "meaning": "Cầm về・Khôi phục lại"
+        },
+        {
+          "id": "card-1788356536548-21-f2f5f3",
+          "word": "励む",
+          "reading": "はげむ",
+          "meaning": "Phấn đấu, cố gắng"
+        },
+        {
+          "id": "card-1788356536548-22-dbae20",
+          "word": "上昇",
+          "reading": "じょうしょう",
+          "meaning": "Tăng lên cao, tiến lên"
+        },
+        {
+          "id": "card-1788356536548-23-e208b1",
+          "word": "漕ぐ",
+          "reading": "こぐ",
+          "meaning": "Chèo thuyền"
+        }
+      ]
+    },
+    {
+      "id": "50d5d078-f20b-4d4c-9cf4-893a7b808237",
+      "name": "Day 03",
+      "createdAt": "2026-09-02T13:40:59.931Z",
+      "cards": [
+        {
+          "id": "card-1788356459931-0-148383",
+          "word": "尊敬",
+          "reading": "そんけい",
+          "meaning": "Tôn kính, kính trọng, tôn trọng"
+        },
+        {
+          "id": "card-1788356459931-1-685440",
+          "word": "敬う",
+          "reading": "うやまう",
+          "meaning": "Tôn trọng, kính trọng"
+        },
+        {
+          "id": "card-1788356459931-2-6a88e6",
+          "word": "敬意",
+          "reading": "けいい",
+          "meaning": "Kính trọng, tôn kính"
+        },
+        {
+          "id": "card-1788356459931-3-7c7478",
+          "word": "疑う",
+          "reading": "うたがう",
+          "meaning": "Nghi ngờ"
+        },
+        {
+          "id": "card-1788356459931-4-4c4472",
+          "word": "恐れる",
+          "reading": "おそれる",
+          "meaning": "Sợ"
+        },
+        {
+          "id": "card-1788356459931-5-6df574",
+          "word": "憎む",
+          "reading": "にくむ",
+          "meaning": "Căm ghét"
+        },
+        {
+          "id": "card-1788356459931-6-53958a",
+          "word": "恨む",
+          "reading": "うらむ",
+          "meaning": "Hận, căm ghét"
+        },
+        {
+          "id": "card-1788356459931-7-2fb174",
+          "word": "羨む",
+          "reading": "うらやむ",
+          "meaning": "Thèm muốn, ganh tỵ"
+        },
+        {
+          "id": "card-1788356459931-8-253150",
+          "word": "嫌う",
+          "reading": "きらう",
+          "meaning": "Ghét"
+        },
+        {
+          "id": "card-1788356459931-9-6d02b8",
+          "word": "嫌がる",
+          "reading": "いやがる",
+          "meaning": "Ghét, không thích"
+        },
+        {
+          "id": "card-1788356459931-10-b7d9cd",
+          "word": "寒がる",
+          "reading": "さむがる",
+          "meaning": "Lạnh, thấy lạnh"
+        },
+        {
+          "id": "card-1788356459931-11-63da25",
+          "word": "欲しがる",
+          "reading": "ほしがる",
+          "meaning": "Muốn, khao khát"
+        },
+        {
+          "id": "card-1788356459931-12-141edf",
+          "word": "憧れる",
+          "reading": "あこがれる",
+          "meaning": "Ngưỡng mộ"
+        },
+        {
+          "id": "card-1788356459931-13-a5ae3f",
+          "word": "恩",
+          "reading": "おん",
+          "meaning": "Ơn, ân huệ"
+        },
+        {
+          "id": "card-1788356459931-14-48ad69",
+          "word": "失望",
+          "reading": "しつぼう",
+          "meaning": "Thất vọng"
+        },
+        {
+          "id": "card-1788356459931-15-711253",
+          "word": "羨ましい",
+          "reading": "うらやましい",
+          "meaning": "Ghen tị, thèm muốn"
+        },
+        {
+          "id": "card-1788356459931-16-5a4a8c",
+          "word": "憎い",
+          "reading": "にくい",
+          "meaning": "Hận, căm ghét"
+        },
+        {
+          "id": "card-1788356459931-17-fbd613",
+          "word": "憎らしい",
+          "reading": "にくらしい",
+          "meaning": "Hận, đáng ghét"
+        },
+        {
+          "id": "card-1788356459931-18-09295b",
+          "word": "可愛らしい",
+          "reading": "かわいらしい",
+          "meaning": "Đáng yêu, dễ thương"
+        },
+        {
+          "id": "card-1788356459931-19-a42cf4",
+          "word": "哀れ",
+          "reading": "あわれ",
+          "meaning": "Đáng thương, tội nghiệp"
+        },
+        {
+          "id": "card-1788356459931-20-58a2a3",
+          "word": "気の毒",
+          "reading": "きのどく",
+          "meaning": "Đáng thương, thương xót"
+        },
+        {
+          "id": "card-1788356459931-21-7d48e7",
+          "word": "申し訳ない",
+          "reading": "もうしわけない",
+          "meaning": "Xin lỗi"
+        },
+        {
+          "id": "card-1788356459931-22-57db1e",
+          "word": "済まない",
+          "reading": "すまない",
+          "meaning": "Xin lỗi"
+        },
+        {
+          "id": "card-1788356459931-23-9d90e7",
+          "word": "有難い",
+          "reading": "ありがたい",
+          "meaning": "Biết ơn, cảm kích"
+        },
+        {
+          "id": "card-1788356459931-24-788b61",
+          "word": "慰める",
+          "reading": "なぐさめる",
+          "meaning": "An ủi, động viên"
+        },
+        {
+          "id": "card-1788356459931-25-a8d008",
+          "word": "貶す",
+          "reading": "けなす",
+          "meaning": "Chửi bới, mắng mỏ"
+        },
+        {
+          "id": "card-1788356459931-26-662f7f",
+          "word": "罵る",
+          "reading": "ののしる",
+          "meaning": "Chửi bới, mắng mỏ"
+        },
+        {
+          "id": "card-1788356459931-27-145cd9",
+          "word": "睨む",
+          "reading": "にらむ",
+          "meaning": "Lườm, liếc"
+        },
+        {
+          "id": "card-1788356459931-28-6dd1ca",
+          "word": "避ける",
+          "reading": "さける",
+          "meaning": "Tránh, trốn khỏi"
+        },
+        {
+          "id": "card-1788356459931-29-f2911f",
+          "word": "助言",
+          "reading": "じょげん",
+          "meaning": "Lời khuyên, nhắc nhở"
+        },
+        {
+          "id": "card-1788356459931-30-4ba6f1",
+          "word": "忠告",
+          "reading": "ちゅうこく",
+          "meaning": "Lời khuyên, cảnh báo"
+        },
+        {
+          "id": "card-1788356459931-31-ce8bba",
+          "word": "言いつける",
+          "reading": "いいつける",
+          "meaning": "Sai bảo, ra lệnh"
+        },
+        {
+          "id": "card-1788356459931-32-4aba65",
+          "word": "結びつける",
+          "reading": "むすびつける",
+          "meaning": "Kết nối, kết hợp"
+        },
+        {
+          "id": "card-1788356459931-33-7485ab",
+          "word": "皮肉",
+          "reading": "ひにく",
+          "meaning": "Giễu cợt, châm chọc"
+        },
+        {
+          "id": "card-1788356459931-34-dc73a1",
+          "word": "ぶつぶつ",
+          "reading": "ぶつぶつ",
+          "meaning": "Lầm bầm, càu nhàu"
+        },
+        {
+          "id": "card-1788356459931-35-a990f6",
+          "word": "不平",
+          "reading": "ふへい",
+          "meaning": "Sự bất bình, bất mãn"
+        },
+        {
+          "id": "card-1788356459931-36-4260ac",
+          "word": "自慢",
+          "reading": "じまん",
+          "meaning": "Tự mãn, kiêu căng"
+        },
+        {
+          "id": "card-1788356459931-37-cbc2f2",
+          "word": "怒鳴る",
+          "reading": "どなる",
+          "meaning": "Kêu la, gào thét"
+        },
+        {
+          "id": "card-1788356459931-38-03c7eb",
+          "word": "隠す",
+          "reading": "かくす",
+          "meaning": "Che giấu, che đậy"
+        },
+        {
+          "id": "card-1788356459931-39-00a239",
+          "word": "広める",
+          "reading": "ひろめる",
+          "meaning": "Mở rộng, lan rộng"
+        },
+        {
+          "id": "card-1788356459931-40-66a12c",
+          "word": "強める",
+          "reading": "つよめる",
+          "meaning": "Tăng cường, làm cho mạnh lên"
+        },
+        {
+          "id": "card-1788356459931-41-49f728",
+          "word": "高める",
+          "reading": "たかめる",
+          "meaning": "Nâng cao, làm cao lên"
+        },
+        {
+          "id": "card-1788356459931-42-6e794c",
+          "word": "誤解",
+          "reading": "ごかい",
+          "meaning": "Hiểu nhầm, hiểu sai"
+        },
+        {
+          "id": "card-1788356459931-43-94638f",
+          "word": "解く",
+          "reading": "とく",
+          "meaning": "Giải đáp, nới lỏng"
+        },
+        {
+          "id": "card-1788356459931-44-361edb",
+          "word": "解ける",
+          "reading": "とける",
+          "meaning": "Tháo ra, lí giải"
+        },
+        {
+          "id": "card-1788356459931-45-fedab0",
+          "word": "仲直り",
+          "reading": "なかなおり",
+          "meaning": "Sự giảng hòa, làm lành"
+        },
+        {
+          "id": "card-1788356459931-46-f3d456",
+          "word": "エチケット",
+          "reading": "エチケット",
+          "meaning": "Nghi thức, lễ nghi"
+        },
+        {
+          "id": "card-1788356459931-47-f2e0db",
+          "word": "作法",
+          "reading": "さほう",
+          "meaning": "Phép tắc, lễ nghi"
+        },
+        {
+          "id": "card-1788356459931-48-89f4bf",
+          "word": "敬語",
+          "reading": "けいご",
+          "meaning": "Kính ngữ"
+        },
+        {
+          "id": "card-1788356459931-49-326316",
+          "word": "反抗的",
+          "reading": "はんこうてき",
+          "meaning": "Chống đối phản kháng"
+        },
+        {
+          "id": "card-1788356459931-50-840c3a",
+          "word": "道徳的",
+          "reading": "どうとくてき",
+          "meaning": "Thuộc về đạo đức, mang tính đạo đức"
+        },
+        {
+          "id": "card-1788356459931-51-77fe8f",
+          "word": "理想的",
+          "reading": "りそうてき",
+          "meaning": "Lý tưởng"
+        },
+        {
+          "id": "card-1788356459931-52-3782ad",
+          "word": "態度",
+          "reading": "たいど",
+          "meaning": "Thái độ"
+        },
+        {
+          "id": "card-1788356459931-53-74a440",
+          "word": "道徳",
+          "reading": "どうとく",
+          "meaning": "Đạo đức"
+        },
+        {
+          "id": "card-1788356459931-54-7121fc",
+          "word": "重視",
+          "reading": "じゅうし",
+          "meaning": "Sự xem trọng, chú trọng"
+        },
+        {
+          "id": "card-1788356459931-55-e22e47",
+          "word": "姿勢",
+          "reading": "しせい",
+          "meaning": "Tư thế,Thái độ, quan điểm"
+        },
+        {
+          "id": "card-1788356459931-56-eb39b6",
+          "word": "みっともない",
+          "reading": "みっともない",
+          "meaning": "Khó nhìn, khó coi"
+        },
+        {
+          "id": "card-1788356459931-57-9cf01d",
+          "word": "服装",
+          "reading": "ふくそう",
+          "meaning": "Áo quần, trang phục"
+        },
+        {
+          "id": "card-1788356459931-58-837779",
+          "word": "モテる",
+          "reading": "モテる",
+          "meaning": "Lôi cuốn, hấp dẫn"
+        },
+        {
+          "id": "card-1788356459931-59-80c14d",
+          "word": "理想",
+          "reading": "りそう",
+          "meaning": "Lý tưởng, ý nghĩ"
+        },
+        {
+          "id": "card-1788356459931-60-2a6658",
+          "word": "偶然",
+          "reading": "ぐうぜん",
+          "meaning": "Tình cờ, ngẫu nhiên"
+        },
+        {
+          "id": "card-1788356459931-61-07224d",
+          "word": "見かける",
+          "reading": "みかける",
+          "meaning": "Nhìn thấy, bắt gặp"
+        },
+        {
+          "id": "card-1788356459931-62-4907c0",
+          "word": "冷める",
+          "reading": "さめる",
+          "meaning": "Nguội, lạnh đi"
+        },
+        {
+          "id": "card-1788356459931-63-6e7878",
+          "word": "振る",
+          "reading": "ふる",
+          "meaning": "Vẫy, từ chối, khước từ"
+        },
+        {
+          "id": "card-1788356459931-64-fa06b9",
+          "word": "失恋",
+          "reading": "しつれん",
+          "meaning": "Thất tình"
+        },
+        {
+          "id": "card-1788356459931-65-1be122",
+          "word": "正に",
+          "reading": "まさに",
+          "meaning": "Đúng, quả đúng là"
+        },
+        {
+          "id": "card-1788356459931-66-ce2770",
+          "word": "思い切って",
+          "reading": "おもいきって",
+          "meaning": "Quyết tâm, dứt khoát"
+        },
+        {
+          "id": "card-1788356459931-67-31f7af",
+          "word": "漸く",
+          "reading": "ようやく",
+          "meaning": "Cuối cùng"
+        },
+        {
+          "id": "card-1788356459931-68-134285",
+          "word": "いつの間にか",
+          "reading": "いつのまにか",
+          "meaning": "Lúc nào không biết"
+        }
+      ]
+    },
+    {
       "id": "ed328a96-eb62-4a98-bfa4-de499c93cbb3",
-      "name": "2026-08-23",
+      "name": "Day 02.1",
       "createdAt": "2026-08-23T12:01:41.002Z",
       "cards": [
         {
